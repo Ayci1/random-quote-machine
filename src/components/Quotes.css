@@ -1,0 +1,57 @@
+#quote-box {
+    place-self: center;
+    padding: 40px;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg, #2f4680, #500ae4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+}
+
+.button-area {
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+    justify-content: space-between;
+}
+
+.button-area button {
+    height: 50px;
+    border: none;
+    outline: none; 
+    border-radius: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #e2d4ff;
+    color: #500ae4;
+    font-size: 14px; 
+    cursor: pointer;
+}
+
+.button-area button, a {
+    height: 50px;
+    border: none;
+    outline: none; 
+    border-radius: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #e2d4ff;
+    color: #500ae4;
+    font-size: 14px; 
+    cursor: pointer;
+}
+
+#quote-area {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+#author {
+    align-self: end;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
